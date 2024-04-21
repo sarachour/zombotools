@@ -1,15 +1,6 @@
 from mod_utils import *
+from ftp_utils import *
 from ftplib import FTP
-
-def login():
-    URL = "194.140.197.194"
-    PORT = 28631 
-    PASSWORD = "9ZxtUMse"
-    USERNAME = "gpftp10303082587667454"
-    ftp = FTP()  # connect to host, default port
-    ftp.connect(host=URL, port=PORT)
-    ftp.login(user=USERNAME, passwd=PASSWORD)
-    return ftp 
 
 def get_modnames():
     mods = read_config("mods.txt")
@@ -74,5 +65,5 @@ def print_modlists():
     text = ";".join(get_field(mods, "id"))
     print(text)
 
-print_modlists()
-#get_modnames()
+#print_modlists()
+get_modnames()
