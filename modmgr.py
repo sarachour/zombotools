@@ -12,6 +12,9 @@ def get_modnames():
         ftp.cwd(src)
         ftp.retrlines('LIST', lambda x: file_list.append(x.strip().split()))
         existing_files = list(map(lambda e: " ".join(e[8:]), file_list))
+        mod["modid"] = []
+        mod["modname"] = []
+        mod["modfolder"] = []
         for args in file_list:
             filename = " ".join(args[8:])
             if args[0].startswith("d"):
@@ -20,19 +23,24 @@ def get_modnames():
                     ftp.retrbinary('RETR {}'.format(info_path), f.write)
 
                 print(info_path)
+                mod["modfolder"].append(filename)
                 with open("tmp.txt", "r") as fh:
                     for line in fh:
                         if "name=" in line or "id=" in line:
                             field,value = line.strip().split("=")
                             if "id" in field:
-                                mod["modid"] = value
+                                mod["modid"].append(value)
                             else:
-                                mod["modname"] = value
+                                mod["modname"].append(value)
 
+    print("writing to file")
     with open("modinfo.csv", "w+") as fh:
-        fh.write("id,modid,modname")
+        fh.write("id,modid,modname,modfolder\n")
         for mod in mods:
-            text = "%s,%s,%s\n" % (mod["id"], mod["modid"], mod["modname"])
+            text = "%s,%s,%s,%s\n" % (\
+                mod["id"], \
+                "|".join(mod["modid"]), "|".join(mod["modname"]), \
+                "|".join(mod["modfolder"]))
             fh.write(text)
 
     print(mod)
