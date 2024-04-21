@@ -1,0 +1,76 @@
+Name,Id,Type,Map Name ,mod id,mod name
+wellsConstruction,2852690210,bases,,wellsConstruction,Wells Construction
+AutomaticGateMotors,3014820613,bases,,AutomaticGateMotors,Automatic Gate Motors
+TCCache,2688809268,core,,TsarcraftCache2,TCCache_MP_v.2.04
+Tsar's Common Library,2392709985,core,,tsarslib,Tsar's Common Library v.2.07
+StutterFix,2911197660,core,,AuthenticZStudderFix,Authentic Z - Stutter Fix
+EasyConfigChucked,2529746725,core,,EasyConfigChucked,Easy Config Chucked
+ModOptions,2169435993,core,,modoptions,Mod Options
+ReloadAllMagazines,2920899878,gameplay,,ReloadAllMagazines,Reload All Magazines
+HordeNight01,2714850307,gameplay,,HordeNight01,HordeNight
+GunFighter_Radial_Menu,2884558190,gameplay,,GunFighter_Radial_Menu,GunFighter Radial Menu
+UBPropFix,2883755057,gameplay,,UBPropFix,41.78+ Propane Torch Fix
+SongbirdsSewing,2912844611,gameplay,,SongbirdsSewing,Songbird's Sewing
+ShuruTailoringExpanded,2588384991,gameplay,,shurutailoringexpanded,Shuru Tailoring Expanded
+AutotsarTuningAtelier,2592358528,gameplay,,ATA_Bus,Autotsar Tuning Atelier - Bus v.2.01
+ImprovisedGlass,2800412098,gameplay,,ImprovisedGlass,Improvised Glass
+RamenMod,2382777667,items,,Ramen,The Ramen Mod
+NutritionistMagazine,2941812268,items,,NutritionistMagazine,Nutritionist Magazine
+CanteensBottles,2863949128,items,,CanteensAndBottles,Canteens And Bottles
+AuthenticZClothes,2335368829,items,,AuthenticZLite,Authentic Z - Lite
+Greenfire,1703604612,items,,jiggasGreenfireMod,jigga's Green Fire Mod
+MoreCigarettes,2396329386,items,,MCMGreenfire,More Cigarettes Mod and Green Fire Patch
+CookingTime,1910606509,items,,CookingTime,Soul Filcher's Cooking Time
+CoolBag,2613596656,items,,CoolBag,CoolBag
+CannedCheese,2956324967,items,,CannedCheese,Canned Cheese
+HanabSnacks,2966574762,items,,CAR,Hanabi's Drinks
+BombsAsLoot,2894528857,items,,CWAX Bombs,Bombs Spawn as Loot
+XnertotBombMagazines,2537343450,items,,XnerEngiBombRezB41,xnertot bomb recipes [Build 41]
+Fort Rock Ridge,2806456685,map,Fort Rock Ridge,Fort Rock Ridge,Fort Rock Ridge
+Gasstationradowl,2814786260,map,Gasstationradowl,Gasstationradowl,Red Owl Inn Gas Station
+RiversidemansionBrang,2886919248,map,Modriversidemansion,RiversidemansionBrang,Riverside mansion
+Muldraugh Fire Department,2789097802,map,Muldraugh Fire Department,Muldraugh Fire Department,Muldraugh Fire Department
+RosewoodVHSGunStores,2922087098,map,RosewoodVHSGunStores,RosewoodVHSGunStores,Rosewood VHS & Gun Stores
+Riverside Fire Department,2799120190,map,Riverside Fire Department,Riverside Fire Department,Riverside Fire Department
+True Music,2613146550,music,,truemusic,True Music_v.2.15
+VehicleSalvage,1424059402,overhauls,,VehicleSalvage,Vehicle Salvage
+Blacksmith41,1997530421,overhauls,,Blacksmith41,Blacksmith
+BB_Foraging,3056538624,overhauls,,BB_Foraging,Obvious Collecting
+SoulFilchersForagingTime,2677920531,overhauls,,SoulFilchersForagingTime,Soul Filcher's Foraging Time
+BB_CommonSense,2875848298,overhauls,,BB_CommonSense,Common Sense
+fuelsideindicator,2616986064,tweaks,,fuelsideindicator,Fuel Side Indicator
+RepairAnyClothes,2142622992,tweaks,,RepairAnyClothes,Repair Any Clothes
+NoLighterNeeded,2714198296,tweaks,,NoLighterNeeded,I Don't Need A Lighter
+fhqExpVehSpawn,2793164190,tweaks,,fhqExpVehSpawn,Vehicle Spawn Zones Expanded
+InvisClothingPatches,2464748152,tweaks,,invisiblesheetpatches,Invisible Sheet Patches
+SwapIt,1915420850,tweaks,,FarmingTime,Soul Filcher's Farming Time
+SwapIt,2366717227,tweaks,,SwapIt,SwapIt
+SnowIsWater,2704811006,tweaks,,snowiswater,Snow is water - Rain Barrels only
+AutotsarTrailers,2282429356,vehicles,,autotsartrailers,Autotsar Trailers v.1.40
+59Cadillac,2772575623,vehicles,,ECTO1,59 Cadillac Miller-Meteor ECTO-1
+69MiniMk2,2937786633,vehicles,,69mini_PitbullSpecial,69 Mini Mk2 Pitbull Special
+79PlymouthBarracuda,2913633066,vehicles,,70barracuda,70 Plymouth Barracuda
+78AMGeneralM35A2,2799152995,vehicles,,78amgeneralM35A2,78 AM General M35A2
+82OshkoshM911,2618213077,vehicles,,82oshkoshM911,82 Oshkosh M911
+87TOYOTALandCruiser,2489148104,vehicles,,87cruiser,87 TOYOTA Land Cruiser FJ60
+88VolkswagenGolfMk2,2516123638,vehicles,,88golfMk2,88 Volkswagen Golf Mk2
+89FordBronco,2886833398,vehicles,,89fordBronco,89 Ford Bronco
+92FordCrownVictoria,2962175696,vehicles,,92fordCVPI,92 Ford Crown Victoria Police Interceptor
+93LincolnTownCarAndLimo,2932547723,vehicles,,93townCar,93 Lincoln Town Car
+BritaWeapon,2200148440,weaponsarmor,,Brita,Brita's Weapon Pack
+BritaArmor,2460154811,weaponsarmor,,Brita_2,Brita's Armor Pack
+SharksWeaponPack,2135624742,weaponsarmor,,SharksWeaponPack,Shark's Weapon Pack
+HistoricalWeaponsAndArmor,2838108930,weaponsarmor,,HistoricalWeaponsAndArmor,HistoricalWeaponsAndArmor
+BushcraftGearRareWeapons,2432621382,weaponsarmor,,BCGRareWeapons,Bushcraft Gear - Rare Weapons
+BushcraftGearTools,2423906082,weaponsarmor,,BCGTools,Bushcraft Gear - Tools
+ArsenalGunfighterMod,2297098490,weaponsarmor,,Arsenal(26)GunFighter[MAIN MOD 2.0],Arsenal(26) GunFighter [MAIN MOD 2.0]
+Shelter 49 12,3221281366,map,Shelter 49 12,shelter-4912,Shelter 49 12
+Shelter 22 28,3221271772,map,Shelter 22 28,shelter-2228,Shelter 22 28
+Shelter 25 33,3221273471,map,Shelter 25 33,shelter-2533,Shelter 25 33
+Shelter 29 26,3221276539,map,Shelter 29 26,shelter-2926,Shelter 29 26
+Shelter 40 30,3221278304,map,Shelter 40 30,shelter-4030,Shelter 40 30
+Shelter 45 15,3221279856,map,Shelter 45 15,shelter-4515clean,Shelter 45 15 Clean
+Tower 13 26,3221282895,map,Tower 13 26,tower-1326,Tower 13 26
+Tower 47 22,3221284259,map,Tower 47 22,tower-4722,Tower 47 22
+lifestyleHobbies,2997342681,gameplay,,Lifestyle,Lifestyle
+moreZombieAnimations,3147442677,tweaks,,More_Zombie_Death_Animations,More Zombie Death Animations
