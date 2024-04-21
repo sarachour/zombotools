@@ -39,7 +39,8 @@ def get_modnames():
         for mod in mods:
             text = "%s,%s,%s,%s\n" % (\
                 mod["id"], \
-                "|".join(mod["modid"]), "|".join(mod["modname"]), \
+                "|".join(mod["modid"]), 
+                "|".join(mod["modname"]), \
                 "|".join(mod["modfolder"]))
             fh.write(text)
 
@@ -66,12 +67,17 @@ def print_modlists():
     mods = reorder_mods(order,mods)
 
     print("=== Mods by Name ===")
-    text = ";".join(get_field(mods, "mod id"))
+    modlist = []
+    for modid in get_field(mods, "modid"):
+        for modsubid in modid.split("|"):
+            modlist.append(modsubid)
+
+    text = ";".join(modlist)
     print(text)
 
     print("=== Mods by ID ===")
     text = ";".join(get_field(mods, "id"))
     print(text)
 
-#print_modlists()
-get_modnames()
+print_modlists()
+#get_modnames()

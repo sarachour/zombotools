@@ -88,6 +88,16 @@ def generate_teleports():
                 print("# mapname=%s id=%s" % (paths["mod"]["name"],paths["mod"]["id"]))
                 print("# NONE")
 
+def generate_map_list(): 
+    print("=== Map List===")
+    mapdirs = []
+    for mod in get_maps():
+        mapdirs.append(mod["map_folder"])
+
+    mapdirs.append("Muldraugh, KY")
+
+    print(";".join(mapdirs)) 
+
 def generate_map_regions(): 
     print("=== Map Region Snippet===")
     for mod in get_maps():
@@ -113,5 +123,6 @@ def download_maps():
 
 #download_maps()
 #generate_teleports()
-#upload_mods_to_media_folder()
-generate_map_regions()
+upload_mods_to_media_folder()
+#generate_map_regions()
+#generate_map_list()

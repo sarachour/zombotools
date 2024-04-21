@@ -37,8 +37,12 @@ def upload_folder(ftp,src,dst):
             upload_folder(ftp,root+"/"+direc, dst+"/"+direc)
 
         for file in files:
-            local_filepath = root + "/" + file
+            local_filepath = src + "/" + file
             remote_filepath = dst + "/" + file
+            if not os.path.exists(local_filepath):
+                continue
+
+            print(remote_filepath)
             if file in existing_files:
                 continue
             
