@@ -5,11 +5,6 @@ import os
 import json
 
 TARG_DIR = "local_maps"
-def mkdirs(path):
-    targdir = "%s" % path
-    os.makedirs(targdir, exist_ok=True)
-    return targdir
-
     
 def to_coords(worldx,worldy,posx,posy,posz):
     xcoord = worldx*300+posx
@@ -30,7 +25,7 @@ def generate_teleport_from_spawnfile(mod,spawnfile):
 
                         xcoord,ycoord,zcoord = to_coords(params["worldX"], params["worldY"], \
                             params["posX"], params["posY"], params["posZ"])
-                        cmd = "/teleportto {x} {y} {z}".format(x=xcoord,y=ycoord,z=zcoord)
+                        cmd = "/teleportto {x},{y},{z}".format(x=xcoord,y=ycoord,z=zcoord)
                         print("# mapname=%s, id=%s, coords=%s" % (mod["name"], mod["id"],json.dumps(params)))
                         print(cmd)
                         return
@@ -97,7 +92,8 @@ def generate_map_regions():
     print("=== Map Region Snippet===")
     for mod in get_maps():
         fmtstr = "               { name=\"%s\", file=\"%s\" },"
-        print(fmtstr % (mod["map_name"], mod["remote_spawn"]))
+        # remove leading slash 
+        print(fmtstr % (mod["map_name"], mod["remote_spawn"][1:]))
 
 
 def upload_mods_to_media_folder():
@@ -116,6 +112,6 @@ def download_maps():
         download_folder(ftp,src,dest)
 
 #download_maps()
-generate_teleports()
+#generate_teleports()
 #upload_mods_to_media_folder()
-#generate_map_regions()
+generate_map_regions()

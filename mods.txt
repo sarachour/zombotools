@@ -1,4 +1,4 @@
-Name,Id,Type,Map Name ,mod id,mod name
+Name,Id,Type,Map Name,mod id,mod name
 wellsConstruction,2852690210,bases,,wellsConstruction,Wells Construction
 AutomaticGateMotors,3014820613,bases,,AutomaticGateMotors,Automatic Gate Motors
 TCCache,2688809268,core,,TsarcraftCache2,TCCache_MP_v.2.04

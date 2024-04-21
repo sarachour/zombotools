@@ -1,4 +1,10 @@
 from ftplib import FTP
+import os
+
+def mkdirs(path):
+    targdir = "%s" % path
+    os.makedirs(targdir, exist_ok=True)
+    return targdir
 
 
 def read_ftp_config():
