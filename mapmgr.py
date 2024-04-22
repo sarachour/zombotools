@@ -123,6 +123,6 @@ def download_maps():
 
 #download_maps()
 #generate_teleports()
-upload_mods_to_media_folder()
+#upload_mods_to_media_folder()
 #generate_map_regions()
-#generate_map_list()
+generate_map_list()

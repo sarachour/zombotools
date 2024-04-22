@@ -1,6 +1,7 @@
 from mod_utils import *
 from ftp_utils import *
 from ftplib import FTP
+import numpy as np
 
 def get_modnames():
     mods = read_config("mods.txt")
@@ -48,9 +49,15 @@ def get_modnames():
 
 
 def reorder_mods(order,mods):
+    low_if_none = lambda x : 9999 if x == "" else int(x)
     ord_mods = []
     for type_ in order:
-        ord_mods += get_by_type(mods,type_)
+        mods_by_type = list(get_by_type(mods,type_))
+        ranks = list(map(lambda x: low_if_none(x["order"]), mods_by_type))
+        indices = list(np.argsort(ranks))
+        for ind in indices:
+            ord_mods.append(mods_by_type[ind])
+
     
     missing = []
     for mod in mods:
@@ -80,4 +87,4 @@ def print_modlists():
     print(text)
 
 print_modlists()
-#get_modnames()
+get_modnames()
