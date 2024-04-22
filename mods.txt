@@ -1,6 +1,6 @@
 Name,Id,Type,Order,Map Name,modid,modname,modfolder
-wellsConstruction,2852690210,bases,,,wellsConstruction,Wells Construction,WellsConstruction
-AutomaticGateMotors,3014820613,bases,,,AutomaticGateMotors,Automatic Gate Motors,AutomaticGateMotors
+wellsConstruction,2852690210,gameplay,,,wellsConstruction,Wells Construction,WellsConstruction
+AutomaticGateMotors,3014820613,tweaks,,,AutomaticGateMotors,Automatic Gate Motors,AutomaticGateMotors
 TCCache,2688809268,core,,,TsarcraftCache2,TCCache_MP_v.2.04,TsarcraftCache2
 Tsar's Common Library,2392709985,core,,,tsarslib,Tsar's Common Library v.2.07,tsarslib
 StutterFix,2911197660,items,,,AuthenticZStudderFix,Authentic Z - Stutter Fix,AuthenticZ Remove Studder
@@ -82,3 +82,4 @@ that DAMN library,3171167894,core,,,damnlib,that DAMN library,
 88 Chevrolet S10,2886832936,vehicles,,,88chevyS10,88 Chevrolet S10,
 69 Chevrolet Camaro,2991201484,vehicles,,,69camaro,69 Chevrolet Camaro,
 63 Volkswagen Type 2 Van,3041122351,vehicles,,,63Type2Van,63 Volkswagen Type 2 Van,
+True Music Addon: Sanya,3214946435,music,,,sanyamodboidyesyes,True Music Addon 1.01: Sanya,truemusic_addon
